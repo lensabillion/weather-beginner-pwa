@@ -1,0 +1,181 @@
+*{
+    font-family: "Rimouski";
+}
+
+
+html {    
+    background: url("/Images/new.webp") no-repeat center fixed;     
+    background-size: cover;
+}
+
+.container{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:2em;
+    margin-bottom:2em;
+
+}
+img {
+    max-width: 100%;
+    display: block;
+  }
+.app-title{
+    width: 100%;
+    height: 5%;
+    
+    
+}
+
+.app-title p{
+    text-align: center;
+   
+    font-size: 3em;
+    color: #d1fa1b;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+   margin-left:5%;
+   margin-right: 5%;
+  
+}
+
+.weather-icon{
+    width: 100%;
+    height: 20%;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+    padding:0.8em;
+}
+
+.temperature-value{
+    width: 100%;
+    height:30%;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #d1fa1b;
+
+    font-size: 5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #d1fa1b;
+
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    text-align: center;
+}
+
+
+
+.location{
+    
+}
+
+
+
+.input{
+    width:100%;
+    height:5%;
+    padding:0.3em;
+    text-align: center;
+    margin:  0;
+}
+@media screen and (max-width : 360px){
+input[type = "text"]{
+    width:50%;
+  
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 0.25em;
+}
+.temprature-description p{
+   
+    margin: 0;
+    color: #121213;
+    text-align: center;
+    font-size: 1.5em;
+    padding:0.8em;
+}
+input[type = "submit"]{
+   
+   
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 0.25em;
+}
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #131414; 
+    text-align: center;
+    font-size: 0.8em;
+}
+
+}
+@media screen and (min-width:361px){
+input[type = "text"]{
+    width:50%;
+  
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    border: none;
+    border-radius: 0.25em;
+}
+
+input[type = "submit"]{
+   
+   
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    border: none;
+    border-radius: 0.25em;
+}
+.temprature-description p{
+   
+    margin: 0;
+    color: #121213;
+    text-align: center;
+    font-size: 3em;
+    padding:0.8em;
+}
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #131414; 
+    text-align: center;
+    font-size: 2em;
+}
+}
